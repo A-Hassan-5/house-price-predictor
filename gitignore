@@ -1,0 +1,26 @@
+# Python virtual environment
+venv/
+env/
+.venv/
+
+# Python cache/bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE settings
+.vscode/
+.idea/
+
+# Jupyter checkpoints (in case you also push notebooks)
+.ipynb_checkpoints/
+
+# Environment variable files (never commit secrets/API keys)
+.env
